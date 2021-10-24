@@ -172,7 +172,7 @@ function initialise (stream, options = {}) {
 
     if (isStreamEnded) {
       setImmediate(endWalk)
-      return Promise.reject()
+      return Promise.reject(new Error('Stream ended'))
     }
 
     resumeFn = after

@@ -1,29 +1,15 @@
 {
-  "name": "bfj",
-  "version": "7.0.2",
+  "name": "bfj-pksilen",
+  "version": "1.0.0",
   "description": "Big-friendly JSON. Asynchronous streaming functions for large JSON data sets.",
-  "homepage": "https://gitlab.com/philbooth/bfj",
-  "bugs": "https://gitlab.com/philbooth/bfj/issues",
+  "homepage": "https://github.com/pksilen/bfj",
+  "bugs": "https://github.com/pksilen/bfj/issues",
   "license": "MIT",
   "author": "Phil Booth (https://gitlab.com/philbooth)",
   "main": "./src",
-  "keywords": [
-    "json",
-    "streamify",
-    "stringify",
-    "walk",
-    "parse",
-    "parser",
-    "serialise",
-    "serialize",
-    "read",
-    "write",
-    "async",
-    "asynchronous"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/philbooth/bfj.git"
+    "url": "https://github.com/pksilen/bfj.git"
   },
   "engines": {
     "node": ">= 8.0.0"
